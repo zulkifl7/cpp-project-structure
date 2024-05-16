@@ -7,7 +7,7 @@ if errorlevel 1 (
   echo Error: Compilation failed while creating object!
   exit /b 1
 )
-g++ main.cpp bin/math_functions.o -o tikTakToe.exe
+g++ main.cpp bin/math_functions.o -o main.exe
 
 if errorlevel 2 (
   echo Error: Compilation failed!
